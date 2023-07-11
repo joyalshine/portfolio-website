@@ -1,0 +1,36 @@
+.header_bar{
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,.09);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px 10px 40px;
+    align-items: center;
+    z-index: 200;
+    position: fixed;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.name{
+    margin: 0;
+    line-height: 0;
+    font-weight: 800;
+    font-size:23px;
+}
+.nav_link_list{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.nav_link{
+    margin: 1rem;
+    font-weight: 600;
+}
+.nav_link a{
+    text-decoration: none;
+    color: #2d2e32
+}
+

@@ -1,0 +1,21 @@
+import React from "react";
+import "./home.css";
+import Header from "../../components/header/header"
+import Banner from '../../components/banner/banner'
+import Skills from "../../components/skills/Skills";
+import About from "../../components/about/About";
+import Projects from "../../components/projects/Projects";
+import Footer from "../../components/footer/Footer";
+
+function HomePage() {
+  return <div className="main-background">
+    <Header/>
+    <Banner/>
+    <Skills/>
+    <About/>
+    <Projects/>
+    <Footer/>
+  </div>;
+}
+
+export default HomePage;
