@@ -30,17 +30,18 @@
 }
 
 .project-img{
-    /* background-image: url('../../../public/images/sample.png');
-    background-repeat: no-repeat;
-    background-size: cover; */
     border-radius: 12px;
     box-shadow: 0 0 10px rgba(0,0,0,.1);
     display: grid;
     align-content: center;
+    padding: 1rem;
+    height: 20rem;
+    justify-content: center;
 }
 
 .project-img img{
     width: 100%;
+    max-height: 19rem;
 }
 
 .project-desc-right{
@@ -84,6 +85,7 @@
 .project-stack{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .project-stack p{
     background-color: #fff;
@@ -131,6 +133,10 @@
         padding-right: 0;
         padding-top: 2rem;
     }
+    .alternative{
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
 
 @media (max-width: 400px) {
@@ -146,3 +152,5 @@
     }
 
 }
+
+

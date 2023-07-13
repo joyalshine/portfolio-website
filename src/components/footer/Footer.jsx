@@ -10,12 +10,12 @@ function Footer() {
             </div>
             <div className="links-footer">
                 <span>
-                    <a href="">
+                    <a href="https://www.linkedin.com/in/joyal-shine/" target="_blank" rel="noreferrer">
                         <i class="fa-brands fa-linkedin"></i>
                     </a>
                 </span>
                 <span>
-                    <a href="">
+                    <a href="https://github.com/joyalshine"  target="_blank" rel="noreferrer">
                         <i class="fa-brands fa-github"></i> 
                     </a>
                 </span>

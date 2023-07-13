@@ -6,6 +6,7 @@ import Skills from "../../components/skills/Skills";
 import About from "../../components/about/About";
 import Projects from "../../components/projects/Projects";
 import Footer from "../../components/footer/Footer";
+import Contact from "../../components/contact/Contact";
 
 function HomePage() {
   return <div className="main-background">
@@ -14,6 +15,7 @@ function HomePage() {
     <Skills/>
     <About/>
     <Projects/>
+    <Contact/>
     <Footer/>
   </div>;
 }

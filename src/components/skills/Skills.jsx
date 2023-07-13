@@ -3,7 +3,7 @@ import './Skills.css'
 
 function Skills() {
   return (
-    <div className='skills-parent container-fluid'>
+    <div className='skills-parent container-fluid' id="skills">
         <div className='child'>
             <div className="skill-set row m-1">
                 <div className="col-md-3 stack-title">

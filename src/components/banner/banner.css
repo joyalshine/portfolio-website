@@ -37,7 +37,7 @@
 }
 
 .hero-image{
-    background-image: url("https://stefantopalovicdev.vercel.app/static/media/pfp_webp.f334283842f7b24cafd1.webp");
+    background-image: url("../../../public/images/s.jpg");
     height: 24rem;
     width: 23rem;
     background-repeat: no-repeat;
@@ -87,8 +87,8 @@
 
 @media (max-width: 768px) {
     .hero-image{
-        width: 18rem;
-        height: 16rem;
+        width: 16rem !important;
+        height: 16rem  !important;
     }
     .home_hero h1, p,span{
         text-align: center;
@@ -102,4 +102,14 @@
     }
     
 }
+
+
+@media (max-width: 932px) {
+    .hero-image{
+        width: 19rem;
+        height: 19rem;
+    }
+}
+
+
 
