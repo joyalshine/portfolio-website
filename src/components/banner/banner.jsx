@@ -3,7 +3,7 @@ import './banner.css'
 
 function Banner() {
   return (
-    <div className='home_hero container-fluid'>
+    <div className='home_hero container-fluid' id='home'>
         <div className='row home_hero_row'>
             <div className="col-md-7 welcome_div order-sm-2 order-2 order-md-1">
                 <div className='width_control'>

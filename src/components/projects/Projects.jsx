@@ -73,16 +73,16 @@ function Projects() {
                 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src={process.env.PUBLIC_URL + '/images/netflix-project-1.png'} class="img-fluid d-block" alt=""/>
+                            <img src={process.env.PUBLIC_URL + '/images/netflix-project-1.jpg'} class="img-fluid d-block" alt=""/>
                         </div>
                         <div class="carousel-item">
-                            <img src={process.env.PUBLIC_URL + '/images/netflix-project-2.png'} class="d-block w-100" alt=""/>
+                            <img src={process.env.PUBLIC_URL + '/images/netflix-project-2.jpg'} class="d-block w-100" alt=""/>
                         </div>
                         <div class="carousel-item">
-                            <img src={process.env.PUBLIC_URL + '/images/netflix-project-3.png'} class="d-block w-100" alt=""/>
+                            <img src={process.env.PUBLIC_URL + '/images/netflix-project-3.jpg'} class="d-block w-100" alt=""/>
                         </div>
                         <div class="carousel-item">
-                            <img src={process.env.PUBLIC_URL + '/images/netflix-project-4.png'} class="d-block w-100" alt=""/>
+                            <img src={process.env.PUBLIC_URL + '/images/netflix-project-4.jpg'} class="d-block w-100" alt=""/>
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">

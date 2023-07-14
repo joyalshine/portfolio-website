@@ -74,7 +74,9 @@
     font-weight: 500;
     text-decoration: none;
 }
-
+#mobile-nav-btn{
+    cursor: pointer;
+}
 @media (max-width:768px) {
     .header_bar {
         padding: 15px 20px 15px 40px;
@@ -102,4 +104,7 @@
 }
 .nav_link i{
     font-size: 21px;
+}
+.mobile_nav_list{
+    padding-left: 0;
 }
