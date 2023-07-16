@@ -44,7 +44,7 @@ function Projects() {
                 </div>
             </div>
             <div className="project-img col-lg-7">
-                <div id="carouselExampleFade" class="carousel slide" data-bs-ride="carousel">
+                <div id="carouselFade1" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src={process.env.PUBLIC_URL + '/images/hostel-project-1.png'} class="d-block w-100" alt=""/>
@@ -56,11 +56,11 @@ function Projects() {
                             <img src={process.env.PUBLIC_URL + '/images/hostel-project-4.png'} class="d-block w-100" alt=""/>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselFade1" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselFade1" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -70,7 +70,7 @@ function Projects() {
 
         <div className="project-item row">
             <div className="project-img col-lg-7">
-                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div id="carouselFade2" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src={process.env.PUBLIC_URL + '/images/netflix-project-1.jpg'} class="img-fluid d-block" alt=""/>
@@ -85,11 +85,11 @@ function Projects() {
                             <img src={process.env.PUBLIC_URL + '/images/netflix-project-4.jpg'} class="d-block w-100" alt=""/>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselFade2" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselFade2" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -122,7 +122,7 @@ function Projects() {
                 </div>
             </div>
             <div className="project-img col-lg-7">
-                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div id="carouselFade3" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src={process.env.PUBLIC_URL + '/images/olx-project-1.png'} class="d-block w-100" alt=""/>
@@ -134,11 +134,11 @@ function Projects() {
                             <img src={process.env.PUBLIC_URL + '/images/olx-project-3.png'} class="d-block w-100" alt=""/>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselFade3" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselFade3" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -180,7 +180,7 @@ function Projects() {
 
         <div className="project-item row">
             <div className="project-img col-lg-7">
-                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div id="carouselFade4" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src={process.env.PUBLIC_URL + '/images/signs-project-1.png'} class="d-block w-100" alt=""/>
@@ -189,11 +189,11 @@ function Projects() {
                             <img src={process.env.PUBLIC_URL + '/images/signs-project-2.png'} class="d-block w-100" alt=""/>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselFade4" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselFade4" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>

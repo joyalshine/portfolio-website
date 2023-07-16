@@ -143,6 +143,9 @@
     .projects-root{
         padding: 8vw;
     }
+    .project-img{
+        height: 12rem;
+    }
 
 }
 
