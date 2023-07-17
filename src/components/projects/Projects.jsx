@@ -2,6 +2,8 @@ import React from 'react'
 import './Projects.css'
 
 function Projects() {
+    let screenWidth = window.innerWidth;
+
   return (
     <div className='projects-root' id='projects'>
       <div className="title">
@@ -11,7 +13,7 @@ function Projects() {
       <div className="project-container conatiner-fluid">
         <div className="project-item row">
             <div className="project-img col-lg-7">
-                <img src={process.env.PUBLIC_URL + '/images/vitol-project.jpg'} alt="" />
+                <img src={process.env.PUBLIC_URL + screenWidth > 1400 ?'/images/projects/large/vitol-project.jpg'  :'/images/projects/small/vitol-project.jpg'} alt="" />
             </div>
             <div className="project-desc-right col-lg-5">
                 <h3>Studio Management System </h3>
@@ -24,8 +26,7 @@ function Projects() {
                     <p>MongoDB</p>
                 </div>
                 <div className="links">
-                    {/* <a href="">Code<i class="fa-brands fa-github "></i></a>
-                    <a href="">Live Demo</a> */}
+                    
                 </div>
             </div>
         </div>
@@ -39,30 +40,30 @@ function Projects() {
                     <p>Firebase</p>
                 </div>
                 <div className="links">
-                    <a href="https://github.com/joyalshine/vit_hostel_app" target="_blank" rel="noreferrer">Code<i class="fa-brands fa-github "></i></a>
-                    <a href="https://www.figma.com/proto/EyzNbbQfexqqPobZbsLbjQ/VIT-HOSTEL-APP-FINAL?type=design&node-id=1-890&t=5WMk2GM8t5DgANo1-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A890&mode=design" target="_blank" rel="noreferrer">Figma<i class="fa-brands fa-figma"></i></a>
+                    <a href="https://github.com/joyalshine/vit_hostel_app" target="_blank" rel="noreferrer">Code<i className="fa-brands fa-github "></i></a>
+                    <a href="https://www.figma.com/proto/EyzNbbQfexqqPobZbsLbjQ/VIT-HOSTEL-APP-FINAL?type=design&node-id=1-890&t=5WMk2GM8t5DgANo1-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A890&mode=design" target="_blank" rel="noreferrer">Figma<i className="fa-brands fa-figma"></i></a>
                 </div>
             </div>
             <div className="project-img col-lg-7">
-                <div id="carouselFade1" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src={process.env.PUBLIC_URL + '/images/hostel-project-1.jpg'} class="d-block w-100" alt=""/>
+                <div id="carouselFade1" className="carousel slide" data-bs-ride="carousel">
+                    <div className="carousel-inner">
+                        <div className="carousel-item active">
+                            <img src={process.env.PUBLIC_URL + screenWidth > 1400 ?'/images/projects/large/hostel-project-1.jpg'  :'/images/projects/small/hostel-project-1.jpg'} className="d-block w-100" alt=""/>
                         </div>
-                        <div class="carousel-item">
-                            <img src={process.env.PUBLIC_URL + '/images/hostel-project-2.jpg'} class="d-block w-100" alt=""/>
+                        <div className="carousel-item">
+                            <img src={process.env.PUBLIC_URL + screenWidth > 1400 ?'/images/projects/large/hostel-project-2.jpg'  :'/images/projects/small/hostel-project-2.jpg'} className="d-block w-100" alt=""/>
                         </div>
-                        <div class="carousel-item">
-                            <img src={process.env.PUBLIC_URL + '/images/hostel-project-4.jpg'} class="d-block w-100" alt=""/>
+                        <div className="carousel-item">
+                            <img src={process.env.PUBLIC_URL + screenWidth > 1400 ?'/images/projects/large/hostel-project-4.jpg'  :'/images/projects/small/hostel-project-4.jpg'} className="d-block w-100" alt=""/>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselFade1" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
+                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselFade1" data-bs-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselFade1" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
+                    <button className="carousel-control-next" type="button" data-bs-target="#carouselFade1" data-bs-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Next</span>
                     </button>
                 </div>
             </div>
@@ -70,28 +71,28 @@ function Projects() {
 
         <div className="project-item row">
             <div className="project-img col-lg-7">
-                <div id="carouselFade2" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src={process.env.PUBLIC_URL + '/images/netflix-project-1.jpg'} class="img-fluid d-block" alt=""/>
+                <div id="carouselFade2" className="carousel slide" data-bs-ride="carousel">
+                    <div className="carousel-inner">
+                        <div className="carousel-item active">
+                            <img src={process.env.PUBLIC_URL + screenWidth > 1400 ?'/images/projects/large/netflix-project-1.jpg'  :'/images/projects/small/netflix-project-1.jpg'} className="img-fluid d-block" alt=""/>
                         </div>
-                        <div class="carousel-item">
-                            <img src={process.env.PUBLIC_URL + '/images/netflix-project-2.jpg'} class="d-block w-100" alt=""/>
+                        <div className="carousel-item">
+                            <img src={process.env.PUBLIC_URL + screenWidth > 1400 ?'/images/projects/large/netflix-project-2.jpg'  :'/images/projects/small/netflix-project-2.jpg'} className="d-block w-100" alt=""/>
                         </div>
-                        <div class="carousel-item">
-                            <img src={process.env.PUBLIC_URL + '/images/netflix-project-3.jpg'} class="d-block w-100" alt=""/>
+                        <div className="carousel-item">
+                            <img src={process.env.PUBLIC_URL + screenWidth > 1400 ?'/images/projects/large/netflix-project-3.jpg'  :'/images/projects/small/netflix-project-3.jpg'} className="d-block w-100" alt=""/>
                         </div>
-                        <div class="carousel-item">
-                            <img src={process.env.PUBLIC_URL + '/images/netflix-project-4.jpg'} class="d-block w-100" alt=""/>
+                        <div className="carousel-item">
+                            <img src={process.env.PUBLIC_URL + screenWidth > 1400 ?'/images/projects/large/netflix-project-4.jpg'  :'/images/projects/small/netflix-project-4.jpg'} className="d-block w-100" alt=""/>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselFade2" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
+                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselFade2" data-bs-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselFade2" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
+                    <button className="carousel-control-next" type="button" data-bs-target="#carouselFade2" data-bs-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Next</span>
                     </button>
                 </div>
             </div>
@@ -102,7 +103,7 @@ function Projects() {
                     <p>React</p>
                 </div>
                 <div className="links">
-                    <a href="https://github.com/joyalshine/netflix" target="_blank" rel="noreferrer">Code<i class="fa-brands fa-github "></i></a>
+                    <a href="https://github.com/joyalshine/netflix" target="_blank" rel="noreferrer">Code<i className="fa-brands fa-github "></i></a>
                 </div>
             </div>
         </div>
@@ -110,7 +111,7 @@ function Projects() {
         <div className="project-item row alternative">
             <div className="project-desc-left col-lg-5">
                 <h3>OLX CLONE</h3>
-                <p>Discover the power of online classifieds with my OLX Clone project. Featuring a sleek design and efficient functionality, this project showcases my proficiency in Front-end and Back-end development.</p>
+                <p>Discover the power of online classNameifieds with my OLX Clone project. Featuring a sleek design and efficient functionality, this project showcases my proficiency in Front-end and Back-end development.</p>
                 <div className='project-stack'>
                     <p>React</p>
                     <p>NodeJS</p>
@@ -118,29 +119,29 @@ function Projects() {
                     <p>Firebase</p>
                 </div>
                 <div className="links">
-                    <a href="https://github.com/joyalshine/olx_clone" target="_blank" rel="noreferrer">Code<i class="fa-brands fa-github "></i></a>
+                    <a href="https://github.com/joyalshine/olx_clone" target="_blank" rel="noreferrer">Code<i className="fa-brands fa-github "></i></a>
                 </div>
             </div>
             <div className="project-img col-lg-7">
-                <div id="carouselFade3" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src={process.env.PUBLIC_URL + '/images/olx-project-1.jpg'} class="d-block w-100" alt=""/>
+                <div id="carouselFade3" className="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div className="carousel-inner">
+                        <div className="carousel-item active">
+                            <img src={process.env.PUBLIC_URL + screenWidth > 1400 ?'/images/projects/large/olx-project-1.jpg'  :'/images/projects/small/olx-project-1.jpg'} className="d-block w-100" alt=""/>
                         </div>
-                        <div class="carousel-item">
-                            <img src={process.env.PUBLIC_URL + '/images/olx-project-2.jpg'} class="d-block w-100" alt=""/>
+                        <div className="carousel-item">
+                            <img src={process.env.PUBLIC_URL + screenWidth > 1400 ?'/images/projects/large/olx-project-2.jpg'  :'/images/projects/small/olx-project-2.jpg'} className="d-block w-100" alt=""/>
                         </div>
-                        <div class="carousel-item">
-                            <img src={process.env.PUBLIC_URL + '/images/olx-project-3.jpg'} class="d-block w-100" alt=""/>
+                        <div className="carousel-item">
+                            <img src={process.env.PUBLIC_URL + screenWidth > 1400 ?'/images/projects/large/olx-project-3.jpg'  :'/images/projects/small/olx-project-3.jpg'} className="d-block w-100" alt=""/>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselFade3" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
+                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselFade3" data-bs-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselFade3" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
+                    <button className="carousel-control-next" type="button" data-bs-target="#carouselFade3" data-bs-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Next</span>
                     </button>
                 </div>
             </div>
@@ -148,7 +149,7 @@ function Projects() {
 
         <div className="project-item row">
             <div className="project-img col-lg-7">
-                <img src={process.env.PUBLIC_URL + '/images/quiz-project.jpg'} alt="" />
+                <img src={process.env.PUBLIC_URL + screenWidth > 1400 ?'/images/projects/large/quiz-project.jpg'  :'/images/projects/small/quiz-project.jpg'} alt="" />
             </div>
             <div className="project-desc-right col-lg-5">
                 <h3>QUIZ APP</h3>
@@ -157,7 +158,7 @@ function Projects() {
                     <p>Flutter</p>
                 </div>
                 <div className="links">
-                    <a href="https://github.com/joyalshine/flutter-quiz-app" target="_blank" rel="noreferrer">Code<i class="fa-brands fa-github "></i></a>
+                    <a href="https://github.com/joyalshine/flutter-quiz-app" target="_blank" rel="noreferrer">Code<i className="fa-brands fa-github "></i></a>
                 </div>
             </div>
         </div>
@@ -170,32 +171,32 @@ function Projects() {
                     <p>Flutter</p>
                 </div>
                 <div className="links">
-                    <a href="https://github.com/joyalshine/whatsapp_ui" target="_blank" rel="noreferrer">Code<i class="fa-brands fa-github "></i></a>
+                    <a href="https://github.com/joyalshine/whatsapp_ui" target="_blank" rel="noreferrer">Code<i className="fa-brands fa-github "></i></a>
                 </div>
             </div>
             <div className="project-img col-lg-7">
-                <img src={process.env.PUBLIC_URL + '/images/whatsapp-project.jpg'} alt="" />
+                <img src={process.env.PUBLIC_URL + screenWidth > 1400 ?'/images/projects/large/whatsapp-project.jpg'  :'/images/projects/small/whatsapp-project.jpg'} alt="" />
             </div>
         </div>
 
         <div className="project-item row">
             <div className="project-img col-lg-7">
-                <div id="carouselFade4" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src={process.env.PUBLIC_URL + '/images/signs-project-1.jpg'} class="d-block w-100" alt=""/>
+                <div id="carouselFade4" className="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div className="carousel-inner">
+                        <div className="carousel-item active">
+                            <img src={process.env.PUBLIC_URL + screenWidth > 1400 ?'/images/projects/large/signs-project-1.jpg'  :'/images/projects/small/signs-project-1.jpg'} className="d-block w-100" alt=""/>
                         </div>
-                        <div class="carousel-item">
-                            <img src={process.env.PUBLIC_URL + '/images/signs-project-2.jpg'} class="d-block w-100" alt=""/>
+                        <div className="carousel-item">
+                            <img src={process.env.PUBLIC_URL + screenWidth > 1400 ?'/images/projects/large/signs-project-2.jpg'  :'/images/projects/small/signs-project-2.jpg'} className="d-block w-100" alt=""/>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselFade4" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
+                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselFade4" data-bs-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselFade4" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
+                    <button className="carousel-control-next" type="button" data-bs-target="#carouselFade4" data-bs-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Next</span>
                     </button>
                 </div>
             </div>
@@ -210,7 +211,7 @@ function Projects() {
                     <p>MongoDB</p>
                 </div>
                 <div className="links">
-                    <a href="https://github.com/joyalshine/vinhack" target="_blank" rel="noreferrer">Code<i class="fa-brands fa-github "></i></a>
+                    <a href="https://github.com/joyalshine/vinhack" target="_blank" rel="noreferrer">Code<i className="fa-brands fa-github "></i></a>
                 </div>
             </div>
         </div>

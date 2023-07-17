@@ -9,7 +9,7 @@ function Contact() {
         <div className='contact-inner-div'>
             <div className="sub-div">
                 <span>
-                    <i class="fa-solid fa-envelope-open-text"></i>
+                    <i className="fa-solid fa-envelope-open-text"></i>
                 </span>
                 <div className='sub-sub'>
                     <h6>Location</h6>
@@ -18,7 +18,7 @@ function Contact() {
             </div>
             <div className="sub-div">
                 <span>
-                    <i class="fa-solid fa-map-location-dot"></i>
+                    <i className="fa-solid fa-map-location-dot"></i>
                 </span>
                 <div className='sub-sub'>
                     <h6>Mail</h6>
