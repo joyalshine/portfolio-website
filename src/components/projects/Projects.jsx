@@ -11,7 +11,7 @@ function Projects() {
       <div className="project-container conatiner-fluid">
         <div className="project-item row">
             <div className="project-img col-lg-7">
-                <img src={process.env.PUBLIC_URL + '/images/vitol-project.png'} alt="" />
+                <img src={process.env.PUBLIC_URL + '/images/vitol-project.jpg'} alt="" />
             </div>
             <div className="project-desc-right col-lg-5">
                 <h3>Studio Management System </h3>
@@ -47,13 +47,13 @@ function Projects() {
                 <div id="carouselFade1" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src={process.env.PUBLIC_URL + '/images/hostel-project-1.png'} class="d-block w-100" alt=""/>
+                            <img src={process.env.PUBLIC_URL + '/images/hostel-project-1.jpg'} class="d-block w-100" alt=""/>
                         </div>
                         <div class="carousel-item">
-                            <img src={process.env.PUBLIC_URL + '/images/hostel-project-2.png'} class="d-block w-100" alt=""/>
+                            <img src={process.env.PUBLIC_URL + '/images/hostel-project-2.jpg'} class="d-block w-100" alt=""/>
                         </div>
                         <div class="carousel-item">
-                            <img src={process.env.PUBLIC_URL + '/images/hostel-project-4.png'} class="d-block w-100" alt=""/>
+                            <img src={process.env.PUBLIC_URL + '/images/hostel-project-4.jpg'} class="d-block w-100" alt=""/>
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselFade1" data-bs-slide="prev">
@@ -125,13 +125,13 @@ function Projects() {
                 <div id="carouselFade3" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src={process.env.PUBLIC_URL + '/images/olx-project-1.png'} class="d-block w-100" alt=""/>
+                            <img src={process.env.PUBLIC_URL + '/images/olx-project-1.jpg'} class="d-block w-100" alt=""/>
                         </div>
                         <div class="carousel-item">
-                            <img src={process.env.PUBLIC_URL + '/images/olx-project-2.png'} class="d-block w-100" alt=""/>
+                            <img src={process.env.PUBLIC_URL + '/images/olx-project-2.jpg'} class="d-block w-100" alt=""/>
                         </div>
                         <div class="carousel-item">
-                            <img src={process.env.PUBLIC_URL + '/images/olx-project-3.png'} class="d-block w-100" alt=""/>
+                            <img src={process.env.PUBLIC_URL + '/images/olx-project-3.jpg'} class="d-block w-100" alt=""/>
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselFade3" data-bs-slide="prev">
@@ -148,7 +148,7 @@ function Projects() {
 
         <div className="project-item row">
             <div className="project-img col-lg-7">
-                <img src={process.env.PUBLIC_URL + '/images/quiz-project.png'} alt="" />
+                <img src={process.env.PUBLIC_URL + '/images/quiz-project.jpg'} alt="" />
             </div>
             <div className="project-desc-right col-lg-5">
                 <h3>QUIZ APP</h3>
@@ -174,7 +174,7 @@ function Projects() {
                 </div>
             </div>
             <div className="project-img col-lg-7">
-                <img src={process.env.PUBLIC_URL + '/images/whatsapp-project.png'} alt="" />
+                <img src={process.env.PUBLIC_URL + '/images/whatsapp-project.jpg'} alt="" />
             </div>
         </div>
 
@@ -183,10 +183,10 @@ function Projects() {
                 <div id="carouselFade4" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src={process.env.PUBLIC_URL + '/images/signs-project-1.png'} class="d-block w-100" alt=""/>
+                            <img src={process.env.PUBLIC_URL + '/images/signs-project-1.jpg'} class="d-block w-100" alt=""/>
                         </div>
                         <div class="carousel-item">
-                            <img src={process.env.PUBLIC_URL + '/images/signs-project-2.png'} class="d-block w-100" alt=""/>
+                            <img src={process.env.PUBLIC_URL + '/images/signs-project-2.jpg'} class="d-block w-100" alt=""/>
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselFade4" data-bs-slide="prev">
