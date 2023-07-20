@@ -40,7 +40,7 @@ function Projects() {
                     <p>Firebase</p>
                 </div>
                 <div className="links">
-                    <a href="https://github.com/joyalshine/vit_hostel_app" target="_blank" rel="noreferrer">Code<i className="fa-brands fa-github "></i></a>
+                    {/* <a href="https://github.com/joyalshine/vit_hostel_app" target="_blank" rel="noreferrer">Code<i className="fa-brands fa-github "></i></a> */}
                     <a href="https://www.figma.com/proto/EyzNbbQfexqqPobZbsLbjQ/VIT-HOSTEL-APP-FINAL?type=design&node-id=1-890&t=5WMk2GM8t5DgANo1-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A890&mode=design" target="_blank" rel="noreferrer">Figma<i className="fa-brands fa-figma"></i></a>
                 </div>
             </div>
