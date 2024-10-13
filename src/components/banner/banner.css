@@ -37,7 +37,7 @@
 }
 
 .hero-image{
-    background-image: url("../../../public/images/projects/large/s.jpg");
+    background-image: url("../../../public/profile_pic.jpg");
     height: 24rem;
     width: 23rem;
     background-repeat: no-repeat;
@@ -106,7 +106,7 @@
 
 @media (max-width: 932px) {
     .hero-image{
-        background-image: url("../../../public/images/projects/small/s.jpg");
+        background-image: url("../../../public/profile_pic-min.jpg");
         width: 19rem;
         height: 19rem;
     }
